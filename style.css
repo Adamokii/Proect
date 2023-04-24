@@ -1,0 +1,214 @@
+
+body{
+    font-family:'Times New Roman', Times, serif;
+    background-image: url(https://cdnn21.img.ria.ru/images/07e4/08/1c/1576437879_0:242:3072:1970_1920x0_80_0_0_345d77f39a0044d04d3e0352d775a312.jpg);
+    color: whitesmoke;
+}
+.navbar{
+background-color:rgba(0, 0, 0, .7);
+margin-bottom: 12px;
+position: fixed;
+left: 0;
+right: 0;
+z-index: 2;
+}
+.navbar ul {
+   list-style: none;
+   margin: 0;
+   padding: 0 20px;
+   display: flex;
+
+}
+.navbar ul li {
+margin-left: 30px;
+padding: 10px 10px;
+}
+.navbar ul li:hover {
+    background-color: darkgrey;
+    transition: 0.4s;
+}
+.container{
+    max-width: 750px;
+    margin: auto;
+    padding-top: 30px;
+   }
+.Adam{
+    color:gray;
+    margin-bottom: 1px;
+    margin-left: 5px;
+    background-color:rgba(0, 0, 0, .9);
+
+}
+
+
+.Text{
+  font-size: 25px;
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; 
+  background-color:rgba(0, 0, 0, .25);
+  margin: 0; 
+}
+@media (max-width: 650px) {
+    .Text p{
+    display: block;
+    text-align: center;
+    }
+   }
+.Text p{
+display: flex;
+padding-right: 10px;
+
+}
+.Name2{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 18px;
+    background-color: rgba(0, 0, 0, 0.6);
+    border-bottom: 2px;
+}
+    
+.card{
+    margin-top: 10px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    border-bottom: 1px, solid, blue;
+    margin-bottom: 0;
+    background-color: black;
+    border-radius: 12px;
+    padding-left: 10px;
+    padding-bottom: 16px;
+    color: darkgrey;
+    text-align: center;
+    display: block;
+    
+}
+.Seti{
+    color: darkgrey;
+    border: 1px solid black;
+    background-color: black;
+    border-radius: 8px;
+    padding-left: 4px;
+    margin-bottom: 1px;
+    cursor:pointer;
+    font-size: bold;
+    border: 3px solid white;
+}
+.img{
+    margin-left: 8px;
+    box-sizing: border-box;
+    border-radius: 30px;
+    box-shadow: 5px 5px 14px rgba(0, 0, 0, .25);
+    margin-right: 20px;
+    margin: 0;
+}
+a {
+color:lemonchiffon;
+text-decoration: none;
+}
+a:hover{
+    color:crimson;
+    transition: 0.5s;
+}
+.txtarea{
+    margin-left: 10px;
+    background-color:rgb(254, 255, 255);
+    border-radius: 10px;
+    background: black;
+    
+}
+.info h2 {
+  text-align: center;
+  font-size: bold;
+  background-color: rgba(0, 0, 0, .7)
+
+}
+.btn{
+    background: black;
+    padding: 15px 20px;
+    color: black;
+    border: none;
+    cursor:pointer;
+    border-radius: 5px;
+    border-color: black;
+    margin-left: 13px;
+}
+.btn:hover{
+    color:rgb(236, 232, 232);
+   transition: 0.5s;
+   }
+.btnA {
+   background-color: rgba(0, 0, 0, .25);
+   color: white;
+   padding: 8px 8px;
+   cursor: pointer;
+   border: none;
+   border-radius: 5px;
+}
+.btnA label{
+    display: block;
+}
+.btnA input,
+.btnA textarea{
+    width: 100%;
+    box-sizing: border-box;
+    border: none;
+    background: transparent;
+    border-bottom: 3px solid rgba(0, 0, 0, .8);
+    color: white;
+    padding: 10px 0 10px;
+    outline: none;
+    font-family: inherit;
+} 
+.btnB{
+    margin-botom: 10px;
+    display: flex;
+}
+
+.btnB .btnA {
+    width: 50%;
+    margin-right: 23px;
+}
+.btnB .btnA:last-child {
+margin-right: 20px;
+}
+.table{
+    width: 100%;
+   
+}
+.table td{
+    text-align: center;
+    background: rgb(8, 8, 8);
+    color: darkgray;
+    font-family:Arial, Helvetica, sans-serif;
+    padding-bottom: 5px;
+    border: 3px white solid;
+   
+}
+.table td:nth-child(1){
+    background-color:blue;
+    color: white;
+    font-family:'Times New Roman', Times, serif;
+    font-weight: bold;
+}
+.table td:nth-child(2){
+        background-color:darkred;
+        color: white;
+        font-weight: bold;
+    }
+    .table td:nth-child(3){
+        font-weight: bold;
+    }
+    .table tr:nth-child(1){
+        text-transform: uppercase;
+        background: black;
+        color: white;
+    }
+
+.opit{
+    text-align:center;
+    border:2px solid rgba(0, 0, 0, 0.6);
+    background: black;
+    border-radius: 5px;
+    
+}  
+.danni{
+ text-transform: uppercase;
+
+}
